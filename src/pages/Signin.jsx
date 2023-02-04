@@ -1,6 +1,5 @@
 import React from 'react';
-import "../components/sign_in.css";
-
+import "../pages/sign_in.css";
 
 const signin = () => {
   return (
@@ -13,7 +12,6 @@ const signin = () => {
             <button type="button" class="toggle-btn" onclick="register()">Register</button>
         </div>
         <div class="social-icons">
-           
          </div>
          <form id="login" class="input-gp">
              <input type="text" class="input-field" placeholder="User Name" required/>
